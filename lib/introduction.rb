@@ -17,8 +17,8 @@ def introduction_with_language_optional(name,language)
   pputs "Hi, my name is #{name} and I am learning to program in #{language}"
 end
 language = "Ruby"
-introduction_with_language("Edwin",language)
-introduction_with_language("Josh","Python")
+introduction_with_language_optional("Edwin",language)
+introduction_with_language_optional("Josh","Python")
 
 
 
